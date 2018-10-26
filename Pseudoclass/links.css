@@ -1,0 +1,25 @@
+.good:active {
+    background-color:powderblue;
+}
+
+.good:hover {
+    background-color:pink;
+    -moz-transform:rotate(-180deg); /* Firefox */
+    -webkit-transform:rotate(-180deg); /* Webkit */        
+    -ms-transform:rotate(-180deg); /* IE */
+    -o-transform:rotate(-180deg); /* Opera */
+    transform:rotate(-180deg); /* future */
+    position:absolute;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:75px;
+}
+
+.bad:active {
+    font-size:250px;
+    color:orange;
+}
+.bad:hover {
+    /* background-color:lightblue; */
+    background-color:white;
+    color:white;
+}
