@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+    <title>Contact Me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- Bring in our bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-default bgteal navbar-dark">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">Tyler McKellar</a>
+            </div>
+            <ul class="navbar-nav navbar-right">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html" >About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html" >Portfolio</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html" >Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="main-container" class="container border-left border-right">    
+        <div class="row">
+            <div class="col-md-3 col-xs-12">
+                <h1 class="deets">Contact</h1>
+            </div>
+        </div>
+        <div class="mt-3">
+            <form action="#">
+                <div class="form-row">
+                    <div class="form-group col-md-10 col-xs-12">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Name">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-10 col-xs-12">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-10 col-xs-12">
+                    <label for="message">Your message</label>
+                    <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6 col-xs-12">
+                        <button type="submit" class="btn btn-secondary btn-lg">Submit</button>
+                    </div>
+                </div>      
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container" id="footer-text">
+            <span class="text-muted">Copyright &copy;</span>
+        </div>
+    </footer>
+
+</body>
+</html>
