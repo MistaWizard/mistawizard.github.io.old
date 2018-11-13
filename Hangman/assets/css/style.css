@@ -1,0 +1,17 @@
+#guess {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.gameArea {
+    font-size: 35px;
+}
+
+#guesses-left, #wrong-guesses {
+    color: red;
+}
+
+#win-counter {
+    color: green;
+}
