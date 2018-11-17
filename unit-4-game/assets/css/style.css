@@ -1,0 +1,70 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+  
+
+body {
+    font-family: 'Bitter', serif;
+    height: 100%;
+    margin: auto;
+    margin-bottom: 85px;
+}
+
+.content {
+    min-height: calc(100vh - 70px);
+}
+
+.heading {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.instruct {
+    margin-top: 20px;
+    margin: auto;
+    width: 40%;
+    padding: 30px;
+    line-height: 20px;
+    border: 2px solid orange;
+    border-radius: 5px;
+}
+
+.numbersSection {
+    margin-top: 20px;
+    /* margin: auto; */
+    width: 30%;
+    float: left;
+    padding: 30px;
+    font-size: 25px;
+    border: 2px solid orange;
+    border-radius: 5px;
+}
+
+.pokeButton {
+    height: 75px;
+    width: 75px;
+}
+
+.pokemons {
+    padding: 50px;
+    float: left;
+}
+
+#whatHappened {
+    padding: 75px;
+    clear: both;    
+    font-size: 50px;
+    color: blue;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 30px 0;
+    background-color: #efefef;
+    text-align: center;
+}

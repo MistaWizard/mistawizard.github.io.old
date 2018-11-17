@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>Gotta Catch 'Em All?</title>
+    <!-- Reset CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- Google Font Bitter -->
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    <div class="content">
+        <div class="heading">
+            <h1>Can you earn the perfect Pokedex Score?</h1>
+        </div>
+        <br>
+        <div class="instruct">
+            <p>You will be given a random number at the start of the game.</p>
+            <p>There are four Pokemon below. By clicking on a Pokemon you will add a specific amount of Pokedex points to your total score.</p>
+            <p>You win the game by matching your total Pokedex score to the random number. You lose the game if your total Pokedex score goes above the random number.</p>
+            <p>The Pokedex value of each Pokemon is hidden from you until you click on it.</p>
+            <p>Each time the game starts, the value of each Pokemon will change so don't expect to breeze through every time.</p>
+        </div>
+        <br>
+        <div class="numbersSection">
+            <div id="Number">
+                <p>Random Pokedex Number: <span id="pokeNumber"></span></p>
+            </div>
+            <br> 
+            <div>
+                <p>Your Total Pokedex Score: <span id="playerScore"></span></p>
+            </div>
+            <br>
+            <div>
+            <p>Wins: <span id="pokeWins"></span></p>
+            <p>Losses: <span id="pokeLosses"></span></p>
+            </div>
+        </div>
+        <br>
+        <div class="pokemons">
+            <img src="assets/images/pikachu.png" id="pika" class="pokeButton" alt="Pikachu">
+            <img src="assets/images/charmander.png" id="charm" class="pokeButton" alt="Charmander">
+            <img src="assets/images/squirtle.png" id="squi" class="pokeButton" alt="Squirtle">
+            <img src="assets/images/bulbasaur.png" id="bulb" class="pokeButton" alt="Bulbasaur">
+        </div>
+        <br>
+        <div>
+            <span id="whatHappened"></span>
+        </div>
+    </div>
+
+    <div class="footer">
+        Icons made by <a href="https://www.flaticon.com/authors/roundicons-freebies" title="Roundicons Freebies">Roundicons Freebies</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"     title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+    </div>
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Script -->
+    <script type="text/javascript" src="./assets/javascript/game.js"></script>
+
+</body>
+</html>
