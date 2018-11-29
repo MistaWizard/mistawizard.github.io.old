@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>Gotta Answer 'Em All!</title>
+    <!-- Reset CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- Bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    <div class="header">Pokemon Trivia</div>
+
+    <div class="numbersSection">
+        <p>Time Remaining: <span id="pokeTime"></span></p>
+        <p>Correct Answers: <span id="pokeWins"></span></p>
+        <p>Incorrect Answers: <span id="pokeLosses"></span></p>
+    </div>
+
+    <div class="gameArea">
+        <div id="questionSection"></div>
+        <div id="answerblock"></div>
+        <button class ="btn btn-success" id ="start">Start Game</button><br>
+        <button class="btn btn-success" id="reset">Play Again?</button>
+    </div>
+    
+        <!-- jQuery -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+        <!-- Script -->
+        <script type="text/javascript" src="./assets/javascript/app.js"></script>
+
+</body>
+</html>
